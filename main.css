@@ -3,9 +3,9 @@
     color: white;
     background: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 0px;
-    padding: 8vh
-    
+    margin: 0px;
+    padding: 8vh;
+    float: ;
 }
 #portrait {
     width: 15vh;
@@ -43,20 +43,31 @@
     margin-top: 6vw;
     font-size: 1.3rem;
 }
+header {
+    background: red;
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    width: 60vw;
+}
 body {
     background: rgb(255, 255, 255);
+    margin: 0px;
 }
 div {
     padding-left: 5vw;
     padding-right: 2vw;
     padding-top: 3vw;
     padding-bottom: 2.5vw;
-    margin-left: 15vh;
-    margin-right: 10vw;
+    margin-left: 10vh;
 }
-td {
-    width: auto;
-    align-content: auto;
+h2 {
+    transform: rotate(90deg);
+    position: absolute;
+    color: red;
+    font-size: 2rem;
+    float: right;
 }
 .icons {
     width: 6vh;
