@@ -43,31 +43,21 @@
     margin-top: 6vw;
     font-size: 1.3rem;
 }
+#semesterprojects {
+    background: black;
+    color: white;
+}
 header {
     background: red;
     margin: 0px;
     padding: 0px;
 }
-p {
-    width: 60vw;
-}
 body {
     background: rgb(255, 255, 255);
     margin: 0px;
 }
-div {
-    padding-left: 5vw;
-    padding-right: 2vw;
-    padding-top: 3vw;
-    padding-bottom: 2.5vw;
-    margin-left: 10vh;
-}
-h2 {
-    transform: rotate(90deg);
-    position: absolute;
-    color: red;
-    font-size: 2rem;
-    float: right;
+h2{
+  padding-left: 2vw;
 }
 .icons {
     width: 6vh;
@@ -397,8 +387,32 @@ h2 {
 }
 
 .topic {
-    background: black;
     margin-top: 1vh;
     margin-bottom: 5vh;
-    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    padding-left: 5vw;
+    padding-right: 10vw;
+    padding-top: 3vw;
+    padding-bottom: 2.5vw;
+    margin-left: 10vh;
+}
+
+.topic .filling {
+    width: 60vw;
+    margin: 1vw;
+    margin-top: 0px;
+}
+p.filling {
+    max-width: 1000px;
+    max-height: 300px;
+    font-size: 1.1rem;
+}
+img.filling {
+    max-width: 400px;
+    height: 45vw;
+    max-height: 300px;
 }
