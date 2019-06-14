@@ -5,6 +5,7 @@ var youtubeicon = document.getElementById("youtubeicon");
 var instagramicon = document.getElementById("instagramicon");
 var githubicon = document.getElementById("githubicon");
 var linkedinicon = document.getElementById("linkedinicon");
+var content = document.getElementsByClassName("content");
 
 portrait.addEventListener("click", function(){
     if(portrait.className=="Portrait"){
@@ -30,7 +31,23 @@ portrait.addEventListener("click", function(){
         setTimeout(function(){
             portrait.className="Portrait";
         console.log("blinking");
-            }
-            ,1000)
+            },1000)
+    }
+})
+window.addEventListener("resize", function(){
+    if (screen.width < 450) {
+    
+        alert('Less than 450');
+    if (content.className=="content") {
+        content.className="content mobil";
+    }
+        // changes to mobil view
+    }
+    else {
+    
+        alert('More than 450');
+        content.className="content";
+        content.className="content mobil";
+        // changes to desktop view
     }
 })

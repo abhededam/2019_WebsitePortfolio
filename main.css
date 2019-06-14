@@ -1,10 +1,11 @@
 #heading {
-    font-size: 3rem;
-    color: white;
+    width: 30vw;
+    font-size: 4rem;
+    color: rgb(255, 0, 0);
     background: rgb(0, 0, 0);
-    text-align: center;
+    text-align: left;
     margin: 0px;
-    padding: 8vh;
+    padding: 4vh;
 }
 #portrait {
     width: 15vh;
@@ -13,31 +14,31 @@
     border-style: solid;
     position: absolute;
     top: 15vh;
-    left: -7.5vh
+    right: -7.5vh
 }
 
 #mailicon {
     top: 31vh;
-    left: -7.5vh;
+    right: -7.5vh;
 }
 #youtubeicon {
     top: 38vh;
-    left: -7.5vh;
+    right: -7.5vh;
 }
 #instagramicon {
     top: 45vh;
-    left: -7.5vh;
+    right: -7.5vh;
 }
 #githubicon {
     top: 52vh;
-    left: -7.5vh;
+    right: -7.5vh;
 }
 #linkedinicon {
     top: 59vh;
-    left: -7.5vh;
+    right: -7.5vh;
 }
 #aboutme {
-    background: rgba(255, 0, 0, 0.199);
+    background: rgba(255, 0, 0);
     font-family: Georgia;
     margin-top: 6vw;
     font-size: 1.3rem;
@@ -47,16 +48,18 @@
     color: white;
 }
 header {
-    background: red;
+    background: black;
     margin: 0px;
     padding: 0px;
 }
 body {
-    background: rgb(255, 255, 255);
+    background: rgb(0,0,0);
     margin: 0px;
 }
 h2{
   padding-left: 2vw;
+  color: white;
+  background-color: red;
 }
 .icons {
     width: 6vh;
@@ -103,21 +106,21 @@ h2{
 
 .portraitClicked { 
     animation: moving 1s linear 0s 1;
-    left: 1vh !important;
+    right: 1vh !important;
 }
 
 @keyframes moving {
     0%{
-        left: -7.5vh;
+        right: -7.5vh;
     }
     10%{
-        left: -7vh;
+        right: -7vh;
     }
     40%{
-        left: 0.5vh;
+        right: 0.5vh;
     }
     50%{
-        left: 1vh;
+        right: 1vh;
     }
 }
 
@@ -126,22 +129,22 @@ h2{
     animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: -7.5vh !important;
+    transform-origin: right center;
+    right: -7.5vh !important;
 }
 
 @keyframes unmoving {
     0%{
-        left: 1vh;
+        right: 1vh;
     }
     10%{
-        left: 0.5vh;
+        right: 0.5vh;
     }
     90%{
-        left: -7vh;
+        right: -7vh;
     }
     100%{
-        left: -7.5vh;
+        right: -7.5vh;
     }
 }
 
@@ -150,22 +153,22 @@ h2{
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: 5vh !important;
+    transform-origin: right center;
+    right: 5vh !important;
 }
 
 @keyframes mailmoving {
     0%{
-        left: -7vh;
+        right: -7vh;
     }
     10%{
-        left: -6.5vh;
+        right: -6.5vh;
     }
     40%{
-        left: 4.5vh;
+        right: 4.5vh;
     }
     50%{
-        left: 5vh;
+        right: 5vh;
     }
 }
 
@@ -174,22 +177,22 @@ h2{
     animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: -7.5vh !important;
+    transform-origin: right center;
+    right: -7.5vh !important;
 }
 
 @keyframes mailunmoving {
     0%{
-        left: 5vh;
+        right: 5vh;
     }
     10%{
-        left: 4.5vh;
+        right: 4.5vh;
     }
     90%{
-        left: -6.5vh;
+        right: -6.5vh;
     }
     100%{
-        left: -7.5vh;
+        right: -7.5vh;
     }
 }
 
@@ -198,22 +201,22 @@ h2{
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: 5vh !important;
+    transform-origin: right center;
+    right: 5vh !important;
 }
 
 @keyframes ytmoving {
     0%{
-        left: -7vh;
+        right: -7vh;
     }
     10%{
-        left: -6.5vh;
+        right: -6.5vh;
     }
     50%{
-        left: 4.5vh;
+        right: 4.5vh;
     }
     60%{
-        left: 5vh;
+        right: 5vh;
     }
 }
 
@@ -222,22 +225,22 @@ h2{
     animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: -7.5vh !important;
+    transform-origin: right center;
+    right: -7.5vh !important;
 }
 
 @keyframes ytunmoving {
     0%{
-        left: 5vh;
+        right: 5vh;
     }
     10%{
-        left: 4.5vh;
+        right: 4.5vh;
     }
     90%{
-        left: -6.5vh;
+        right: -6.5vh;
     }
     100%{
-        left: -7.5vh;
+        right: -7.5vh;
     }
 }
 
@@ -246,22 +249,22 @@ h2{
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: 5vh !important;
+    transform-origin: right center;
+    right: 5vh !important;
 }
 
 @keyframes instmoving {
     0%{
-        left: -7vh;
+        right: -7vh;
     }
     10%{
-        left: -6.5vh;
+        right: -6.5vh;
     }
     70%{
-        left: 4.5vh;
+        right: 4.5vh;
     }
     80%{
-        left: 5vh;
+        right: 5vh;
     }
 }
 
@@ -270,22 +273,22 @@ h2{
     animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: -7.5vh !important;
+    transform-origin: right center;
+    right: -7.5vh !important;
 }
 
 @keyframes instunmoving {
     0%{
-        left: 5vh;
+        right: 5vh;
     }
     10%{
-        left: 4.5vh;
+        right: 4.5vh;
     }
     90%{
-        left: -6.5vh;
+        right: -6.5vh;
     }
     100%{
-        left: -7.5vh;
+        right: -7.5vh;
     }
 }
 
@@ -294,22 +297,22 @@ h2{
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: 5vh !important;
+    transform-origin: right center;
+    right: 5vh !important;
 }
 
 @keyframes gitmoving {
     0%{
-        left: -7vh;
+        right: -7vh;
     }
     10%{
-        left: -6.5vh;
+        right: -6.5vh;
     }
     80%{
-        left: 4.5vh;
+        right: 4.5vh;
     }
     90%{
-        left: 5vh;
+        right: 5vh;
     }
 }
 
@@ -318,22 +321,22 @@ h2{
     animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: -7.5vh !important;
+    transform-origin: right center;
+    right: -7.5vh !important;
 }
 
 @keyframes gitunmoving {
     0%{
-        left: 5vh;
+        right: 5vh;
     }
     10%{
-        left: 4.5vh;
+        right: 4.5vh;
     }
     90%{
-        left: -6.5vh;
+        right: -6.5vh;
     }
     100%{
-        left: -7.5vh;
+        right: -7.5vh;
     }
 }
 
@@ -342,22 +345,22 @@ h2{
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: 5vh !important;
+    transform-origin: right center;
+    right: 5vh !important;
 }
 
 @keyframes linkmoving {
     0%{
-        left: -7vh;
+        right: -7vh;
     }
     10%{
-        left: -6.5vh;
+        right: -6.5vh;
     }
     90%{
-        left: 4.5vh;
+        right: 4.5vh;
     }
     100%{
-        left: 5vh;
+        right: 5vh;
     }
 }
 
@@ -366,22 +369,22 @@ h2{
     animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    transform-origin: left center;
-    left: -7.5vh !important;
+    transform-origin: right center;
+    right: -7.5vh !important;
 }
 
 @keyframes linkunmoving {
     0%{
-        left: 5vh;
+        right: 5vh;
     }
     10%{
-        left: 4.5vh;
+        right: 4.5vh;
     }
     90%{
-        left: -6.5vh;
+        right: -6.5vh;
     }
     100%{
-        left: -7.5vh;
+        right: -7.5vh;
     }
 }
 
@@ -393,12 +396,19 @@ h2{
 }
 
 .content {
-    padding-left: 5vw;
+    padding-right: 5vw;
     padding-right: 10vw;
     padding-top: 3vw;
     padding-bottom: 2.5vw;
-    margin-left: 10vh;
+    margin-right: 20vh;
 }
+
+.content .mobil {
+    margin-right: 15vh !important; 
+    background-color: green;
+    float: right;
+}
+
 
 .topic .filling {
     width: 60vw;
