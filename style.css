@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto|Offside&display=swap');
+#novi {
+    font-family: 'Offside';
+    font-size: 3em; 
+    color:blue; 
+}
+.Semesterprojekt {
+    background: purple;
+    padding: 1vw;
+    margin-block-end: 2vw;;
+}
+.body {
+    padding:3vw;
+}
+
+h1 {
+    font-family: 'Permanent Marker';
+    margin-left: 1em;
+    margin-block-end: 0;
+}
+
+h2 {
+    font-family: 'Permanent Marker';
+    margin-left: 1em;
+    margin-block-start: 0;
+
+}
+h3 {
+    font-family: 'Permanent Marker';
+
+}
+p {
+    font-family: 'Roboto';
+    margin-inline-start: 1.5em;
+    margin-inline-end: 1.5em;
+}
+
+body {
+    font-family: ;
+}
+
+@media only screen and (min-width:600px) {
+     .body {
+     }
+}
