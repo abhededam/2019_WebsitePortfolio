@@ -4,15 +4,23 @@
     font-size: 3em; 
     color:blue; 
 }
-.Semesterprojekt {
-    background: purple;
-    padding: 1vw;
-    margin-block-end: 2vw;;
+.table{
+    display: table;
+    width:100vw;
+}
+.row{
+    display:table-row;
+}
+.cell{
+    display: table-cell;
 }
 .body {
-    padding:3vw;
 }
-
+a {
+    color:black;
+    text-decoration: none;
+    display: initial;
+}
 h1 {
     font-family: 'Permanent Marker';
     margin-left: 1em;
@@ -34,6 +42,25 @@ p {
     margin-inline-start: 1.5em;
     margin-inline-end: 1.5em;
 }
+
+.cell img,p{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-block-start: 10vw;
+    margin-inline-end: 0;
+    margin-left:2vw;
+}
+.cell h2{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-block-start: 10vw;
+    margin-inline-end: 0;
+    margin-right: 3em;
+    font-size: medium;
+}
+
 
 body {
     font-family: ;
